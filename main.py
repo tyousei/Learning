@@ -16,3 +16,5 @@ if __name__ == "__main__":
 
     sort.quick_sort(arr, 0, len(arr)-1)
     print('quick_sort :', arr)
+
+    sort.print(arr)
