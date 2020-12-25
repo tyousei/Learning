@@ -3,6 +3,10 @@ import random
 from lib.sort import Sort
 
 
+def test():
+    print('test')
+
+
 if __name__ == "__main__":
     arr = np.random.randint(10,size=30)
     sort = Sort(arr)
