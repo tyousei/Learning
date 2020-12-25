@@ -32,3 +32,6 @@ class Sort:
             
             arr[i], arr[min_idx] = arr[min_idx], arr[i]
         return arr
+
+    def print(self, arr):
+        print(arr)
